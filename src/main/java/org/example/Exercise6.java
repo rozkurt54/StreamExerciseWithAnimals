@@ -16,6 +16,8 @@ public class Exercise6 {
       private static final BiConsumer<Integer, List<Animal>> printGroup = (count, list) -> System.out
                   .println(count + ": " + list.toString());
 
+      // Group the animals by their number of legs.
+
       public static void main(String[] args) {
             List<Animal> animals = Arrays.asList(new Cat(), new Spider(), new Cat("Tekir"), new Fish("Free Willy"),
                         new Spider(), new Fish("Jaws"));

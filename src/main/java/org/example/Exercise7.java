@@ -16,6 +16,8 @@ public class Exercise7 {
       private static final BiConsumer<Class<?>, Long> printGroup = (clazz, count) -> System.out
                   .println(clazz.getSimpleName() + ": " + count);
 
+      // Count the number of animals in each species
+
       public static void main(String[] args) {
             List<Animal> animals = Arrays.asList(new Cat(), new Spider(), new Cat("Tekir"), new Fish("Free Willy"),
                         new Spider(), new Fish("Jaws"));

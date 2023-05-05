@@ -1,7 +1,7 @@
 package org.example.domain.abstracts;
 
 public abstract class Animal {
-      private int legs;
+      private final int legs;
 
       public Animal(int legs) {
             this.legs = legs;
